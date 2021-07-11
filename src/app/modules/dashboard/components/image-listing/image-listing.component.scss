@@ -1,0 +1,25 @@
+.row-padding {
+  padding: 2%;
+}
+
+.card {
+  box-shadow: 0 17px 40px 0 rgba(0, 0, 0, 0.1);
+  background-color: #ffffff;
+  border: none !important;
+  padding: 15px;
+}
+
+.card-header {
+  text-align: center;
+}
+
+.img-dims {
+  width: 215px;
+  height: 200px;
+  object-fit: cover;
+}
+
+.buttons-container {
+  display: flex;
+  justify-content: center;
+}

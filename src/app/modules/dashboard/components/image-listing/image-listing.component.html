@@ -1,0 +1,19 @@
+<div class="row row-padding" *ngIf="imagesList">
+  <div class="col-sm-6 col-md-6 col-lg-4 margin-bottom" *ngFor="let image of imagesList;trackBy:imageTracker; let i = index">
+    <div class="card">
+      <div class="card-header" (click)="fileInput.click()">
+        <img class="card-img-top img-dims cursor-pointer" [src]="image.url">
+        <input type="file" class="d-none" (change)="getImage($event,i)" #fileInput>
+      </div>
+      <div class="card-body">
+        <div class="buttons-container">
+          <div class="delete-imager-container">
+            <button class="btn btn-danger" (click)="deleteImageHandler(i,image.url)">
+              Delete Image
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

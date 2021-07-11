@@ -1,0 +1,36 @@
+@import "../node_modules/bootstrap/scss/bootstrap";
+
+body {
+    overflow-x: hidden;
+    background: whitesmoke;
+}
+.cursor-pointer{
+    cursor: pointer;
+}
+.btn:focus,.btn:active {
+    outline: none !important;
+    box-shadow: none;
+ }
+ .margin-bottom{
+     margin-bottom: 15px;
+ }
+ ::-webkit-scrollbar {
+    -webkit-appearance: none;
+    width: 1px;
+}
+::-webkit-scrollbar-thumb {
+    border-radius: 1px;
+    background-color: #ABABAB;
+}
+
+::-webkit-scrollbar {
+    width: 5px;
+}
+
+
+::-webkit-scrollbar-thumb {
+    background-color: #ccc;
+    opacity: 0.5;
+    outline: 0.5px solid rgb(235,235,235);
+    border-radius: 2px;
+}

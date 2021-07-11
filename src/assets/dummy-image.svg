@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="129" height="119" viewBox="0 0 129 119">
+    <defs>
+        <filter id="a" width="256.7%" height="256.7%" x="-80%" y="-80%" filterUnits="objectBoundingBox">
+            <feOffset dx="4" dy="4" in="SourceAlpha" result="shadowOffsetOuter1"/>
+            <feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation="4"/>
+            <feColorMatrix in="shadowBlurOuter1" result="shadowMatrixOuter1" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.399284309 0"/>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"/>
+                <feMergeNode in="SourceGraphic"/>
+            </feMerge>
+        </filter>
+    </defs>
+    <g fill="none" fill-rule="evenodd">
+        <g>
+            <circle cx="56.111" cy="55.784" r="55.784" fill="#E6E6E6"/>
+            <ellipse cx="56.731" cy="42.588" fill="#BE1A1D" fill-rule="nonzero" rx="13.587" ry="13.596"/>
+        </g>
+        <path fill="#BE1A1D" fill-rule="nonzero" d="M86.543 77.378c0-9.837-13.348-17.755-29.812-17.755-16.465 0-29.812 7.918-29.812 17.755v.24h59.544v-.24h.08z"/>
+        <g filter="url(#a)" transform="translate(87.782 76.999)">
+            <circle cx="14.763" cy="14.763" r="14.763" fill="#FAFAFA" stroke="#000" stroke-opacity=".05" stroke-width=".868"/>
+            <g fill="#BE1A1D" fill-rule="nonzero">
+                <path d="M21.183 11.807a1.671 1.671 0 0 0-1.226-.508H18.44l-.346-.92a1.258 1.258 0 0 0-.47-.573 1.207 1.207 0 0 0-.702-.24h-3.468c-.24 0-.474.08-.702.24-.228.16-.385.351-.47.572l-.346.921H10.42c-.48 0-.888.17-1.227.508a1.67 1.67 0 0 0-.508 1.226V19.1c0 .479.17.887.508 1.226.34.338.748.508 1.227.508h9.538c.479 0 .887-.17 1.226-.508a1.67 1.67 0 0 0 .508-1.226v-6.067c0-.479-.17-.887-.508-1.226zm-3.851 6.403a2.923 2.923 0 0 1-2.144.89c-.836 0-1.55-.297-2.144-.89a2.92 2.92 0 0 1-.891-2.143c0-.836.297-1.55.89-2.144a2.923 2.923 0 0 1 2.145-.89c.835 0 1.55.297 2.144.89a2.92 2.92 0 0 1 .89 2.144 2.92 2.92 0 0 1-.89 2.143z"/>
+                <path d="M15.188 14.116c-.538 0-.997.19-1.379.572-.381.382-.572.841-.572 1.379 0 .537.19.996.572 1.378a1.88 1.88 0 0 0 1.379.572c.537 0 .997-.191 1.378-.572.382-.382.573-.841.573-1.378 0-.538-.191-.997-.573-1.379a1.88 1.88 0 0 0-1.378-.572z"/>
+            </g>
+        </g>
+    </g>
+</svg>
